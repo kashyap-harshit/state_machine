@@ -1,7 +1,6 @@
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from sqlalchemy.orm import sessionmaker
 
-from contextlib import contextmanager
 from config import DB_HOST, DB_DATABASE, DB_PASSWORD, DB_PORT, DB_USER
 
 ASYNC_DATABASE_URL = (
